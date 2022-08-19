@@ -36,7 +36,7 @@ class SignUpFragment : Fragment() {
         }
 
         binding.tvSignIn.setOnClickListener {
-
+            findNavController().navigate(R.id.action_signUpFragment_to_signInFragment)
         }
 
         return binding.root
