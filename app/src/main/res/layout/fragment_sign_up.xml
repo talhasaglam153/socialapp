@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#F4F2F2"
+    android:background="#FBF8F8"
     android:layout_height="match_parent"
     tools:context=".view.ui.fragment.SignUpFragment">
 
@@ -21,20 +21,12 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:background="@color/white"
             app:layout_constraintBottom_toBottomOf="@id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/ivBack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:src="@drawable/ic_back"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/ivLogo"
@@ -54,9 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_edittext"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="32dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="E-Mail"
@@ -185,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:text="Allready have an account?" />
             <TextView
-                android:id="@+id/tvLogin"
+                android:id="@+id/tvSignIn"
                 android:layout_marginStart="5dp"
                 android:textColor="@color/app_theme_color"
                 android:layout_width="wrap_content"
