@@ -65,14 +65,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="30dp"
-                android:text="Zaten bir hesabın var mı?" />
+                android:text="Already have an account" />
 
             <TextView
+                android:id="@+id/tvLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
-                android:text="Giriş Yap"
+                android:text="Log In"
                 android:textColor="@color/app_theme_color" />
 
 
@@ -105,23 +106,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textSize="40sp"
+                android:text="See what's going on in the world right now"
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:text="Şu anda dünyada neler oluyor gör."/>
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnCreateAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hesap oluştur"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/custom_button"
                 android:paddingHorizontal="100dp"
+                android:text="Create account"
                 android:textAllCaps="false"
-                android:layout_marginTop="20dp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

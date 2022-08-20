@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537069428153",
+    "project_id": "social-app-tcoding",
+    "storage_bucket": "social-app-tcoding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537069428153:android:d63de947f87a89267d2a68",
+        "android_client_info": {
+          "package_name": "com.tcoding.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537069428153-48198onsdkq6rbiav3gbal6g6m2t78qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFgf_nhtDagtzdL0Rcz96n23JBp4F6Xt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537069428153-48198onsdkq6rbiav3gbal6g6m2t78qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

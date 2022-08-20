@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_logInMainFragment"
-            app:destination="@id/logInMainFragment" />
+            app:destination="@id/logInMainFragment"
+            app:popUpTo="@id/main_nav" />
     </fragment>
     <fragment
         android:id="@+id/logInMainFragment"
