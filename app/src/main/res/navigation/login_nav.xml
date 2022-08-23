@@ -53,5 +53,37 @@
             android:id="@+id/action_homePageFragment_to_signInFragment"
             app:destination="@id/signInFragment"
             app:popUpTo="@id/login_nav" />
+        <action
+            android:id="@+id/action_homePageFragment_to_sharingFragment"
+            app:destination="@id/sharingFragment"
+            app:enterAnim="@anim/from_bottom"
+            app:popExitAnim="@anim/to_bottom"
+            app:popUpTo="@id/homePageFragment" />
+        <action
+            android:id="@+id/action_homePageFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sharingFragment"
+        android:name="com.tcoding.socialapp.view.ui.fragment.SharingFragment"
+        android:label="fragment_sharing"
+        tools:layout="@layout/fragment_sharing" >
+        <action
+            android:id="@+id/action_sharingFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment"
+            app:enterAnim="@anim/to_bottom"
+            app:popUpTo="@id/login_nav" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.tcoding.socialapp.view.ui.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="sharing"
+            app:argType="com.tcoding.socialapp.model.Share" />
+        <action
+            android:id="@+id/action_detailFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
     </fragment>
 </navigation>
